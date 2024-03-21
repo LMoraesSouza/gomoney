@@ -1,0 +1,124 @@
+
+
+.menuTrigger {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  text-decoration: none;
+  color: var(--gray-500);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.menuTrigger p {
+  width: 100%;
+}
+
+.menuContainer {
+  display: grid;
+  grid-template-columns: 100% 0px;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.menuContainerHide button {
+  background: var(--gray-100);
+  display: flex;
+  jsutify-content: space-between;
+  height: 3rem;
+  padding-block: 0.5rem;
+  padding-inline: 0;
+  cursor: pointer
+}
+
+.menuTriggerHide button:hover {
+  background: var(--gray-200);
+  padding-inline: 0.5px;  
+}
+
+.menuContainer button {
+  background: var(--gray-100);
+  display: flex;
+  jsutify-content: space-between;
+  height: 3rem;
+  padding-block: 0.5rem;
+  padding-inline: 0;
+  cursor: pointer
+}
+
+.submenuContainer button {
+  border: none;
+  
+  display: flex;
+  min-width: 100%;
+  border-radius: 12px;
+  justify-content: space-between;
+  padding-inline: 0;
+  align-items: center;
+  height: 2.375rem;
+}
+
+.submenuContainer button:hover {
+  background: var(--gray-200);
+  transition: background-color 0.2s;
+}
+
+
+.submenuContainer {
+  display: grid;
+  grid-template-columns: 100% 0px;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-decoration: none;
+  border-radius: 8px;
+  max-height: 2.25rem;
+}
+
+
+.menuContainerHide{
+  display: grid;
+  grid-template-columns: 3rem 0px;
+  align-items: flex-end;
+}
+
+.menuTriggerHide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} 
+
+.menuTriggerHide img {
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  
+}
+.dropdownMenuInactive {
+  opacity: 0;
+  visibility: visible;
+  transform: translateX(-20px);
+  transition: opacityOut 0.2s ease;
+}
+
+
+
+
+
+

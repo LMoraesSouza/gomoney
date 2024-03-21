@@ -1,0 +1,11 @@
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterButtons{ 
+    margin-right: 0.5rem;
+}
+
+

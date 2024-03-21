@@ -1,0 +1,64 @@
+.arrowDownUp{
+    color: var(--blue-base);
+}
+.arrowUp{
+    color: var(--green-base);
+}
+.arrowDown{
+    color: var(--red-base);
+}
+
+
+.balanceInfoCard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 1.25rem;
+    border: 1px solid var(--gray-100);
+    gap: 0.5rem;
+}
+
+.main {
+    background: var(--gray-050);
+}
+
+
+.iconDiv {
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 8px;
+    border: 1px solid var(--gray-200);
+}
+
+.title {
+    font-weight: bold;
+    color: var(--gray-400);
+    line-height: 1.4;
+    font-size: 0.625rem;
+    margin: 0;
+}
+
+.valueDiv {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex:1;
+}
+
+.valueDiv p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    font-weight: bold;
+    color: var(--gray-400);
+    margin: 0;
+}
+
+.valueDiv span {
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.4; 
+    color: var(--gray-600);
+}

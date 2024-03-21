@@ -1,0 +1,35 @@
+.month {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.currentMonthButton{
+    border-radius: 8px;
+    background: var(--gray-200);
+    color: var(--gray-700);
+    border: none;
+    height: 2rem;
+    padding-inline: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.currentMonthButton:hover{
+    background: var(--gray-250);
+}
+
+.monthSelector {
+    display: flex;
+    align-items: center;
+}
+.monthSelector p {
+    color: var(--gray-650);
+    font-size: 0.875rem;
+    width: 8.75rem;
+    text-align: center;
+    line-height: 140%; /* 1.225rem */
+    font-weight: bold;
+}
+

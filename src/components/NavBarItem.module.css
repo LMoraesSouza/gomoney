@@ -1,0 +1,27 @@
+.active p{
+    color: var(--gray-650);
+}
+
+
+.inactive svg {
+    color: var(--gray-400);
+}
+
+.inactive p {
+    color: var(--gray-500);
+}
+
+.active svg{
+    color: var(--blue-base);
+
+}
+
+
+.active:hover svg {  
+    color: var(--blue-base);
+}
+
+.active:hover p {
+    
+    color: var(--gray-650);
+}

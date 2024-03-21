@@ -1,0 +1,32 @@
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.tableHeader {
+    text-decoration: uppercase;
+    font-size: 0.625rem;
+    line-height: 1.4;
+    font-weight: bold;
+    color: var(--gray-500);
+    padding: 0.5rem;
+}
+
+.tableRow{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    align-items: center;
+    height: 2.5rem;
+    gap: 1.5rem;
+}
+
+.dateCell p {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: var(--gray-650);
+}
+
+

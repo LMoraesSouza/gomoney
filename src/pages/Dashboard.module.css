@@ -1,0 +1,13 @@
+.dashboard {
+    display: flex;
+    flex-firection: row;
+    height: 100%;
+    width: 100%;
+}
+
+.component {
+    flex: 1;
+    border-radius: 24px;
+    background: var(--background);
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}

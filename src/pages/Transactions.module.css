@@ -1,0 +1,35 @@
+.page {
+    display: flex;
+    flex-firection: row;
+    height: 100%;
+    width: 100%;
+}
+
+.component {
+    flex: 1;
+    border-radius: 24px;
+    background: var(--background);
+    margin: 0.5rem 0.5rem 0.5rem 0;
+  }
+
+.registers{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    flex:1;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    gap: 1.5rem;
+    margin: 2rem 2.5rem;
+
+}
+
+.balanceInfoCards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 15.6rem;
+}

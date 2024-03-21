@@ -1,0 +1,28 @@
+
+.statusCell {
+    display: flex;
+    /* flex: 1; */
+    width: 80%;
+    justify-content: center;
+    align-items:center;
+}
+
+.statusCellDiv {
+    display: flex;
+    border-radius: 999px;
+    width: 4rem;
+    height: 1.5rem;
+    background: var(--gray-100);
+    padding-inline: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.statusCell div p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--gray-650);
+
+}

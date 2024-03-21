@@ -1,0 +1,157 @@
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.tableHeader {
+    text-decoration: uppercase;
+    font-size: 0.625rem;
+    line-height: 1.4;
+    font-weight: bold;
+    color: var(--gray-500);
+    padding: 0.5rem;
+}
+
+.tableRow{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    align-items: center;
+    height: 2.5rem;
+    gap: 1.5rem;
+}
+
+
+
+
+
+.dateCell p {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: var(--gray-650);
+}
+
+.originCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 2.5rem;
+}
+
+.originCell {
+    height: 2.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.originCell p {
+    max-height: 1.25rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 1.4;
+    color: var(--gray-650);
+}
+
+.originCell h5{
+    white-space: nowrap;
+    color: var(--gray-700);
+    font-size: 0.875rem;
+    font-weight: bold;
+    /* min-width: 10rem; */
+    line-height: 1.4;
+    text-overflow: ellipsis;
+    height: 1.25rem;  
+    margin: 0;
+    overflow: hidden;
+}
+
+.statusCell {
+    display: flex;
+    /* flex: 1; */
+    width: 80%;
+    justify-content: center;
+    align-items:center;
+}
+
+.statusCellDiv {
+    display: flex;
+    border-radius: 999px;
+    width: 4rem;
+    height: 1.5rem;
+    background: var(--gray-100);
+    padding-inline: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.statusCell div p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--gray-650);
+
+}
+
+.bankCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.bankCell p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--gray-600)
+}
+
+.bankCell p span {
+
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4; /* 0.875rem */
+    text-transform: uppercase;
+    color: var(--gray-600);
+}
+
+.valueCell {
+    width: 100%;
+    display: flex;
+    justiufy-content:center;
+    align-items:center;
+    gap: 0.5rem;
+}
+
+.valueCell div{
+    display: flex;
+    flex-direction: row;
+
+    gap: 0.5rem;
+}
+
+.valueCell p {
+    font-size: 0.625rem;
+    line-height: 1.4;
+    font-weight: bold;
+    color: var(--gray-500);
+    text-transform: uppercase;
+}
+
+.valueCell span {
+    margin-left: 0.12rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.4; 
+    color: var(--gray-650);
+}

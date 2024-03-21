@@ -1,0 +1,31 @@
+
+.valueCell {
+    width: 100%;
+    display: flex;
+    justiufy-content:center;
+    align-items:center;
+    gap: 0.5rem;
+}
+
+.valueCell div{
+    display: flex;
+    flex-direction: row;
+
+    gap: 0.5rem;
+}
+
+.valueCell p {
+    font-size: 0.625rem;
+    line-height: 1.4;
+    font-weight: bold;
+    color: var(--gray-500);
+    text-transform: uppercase;
+}
+
+.valueCell span {
+    margin-left: 0.12rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.4; 
+    color: var(--gray-650);
+}
